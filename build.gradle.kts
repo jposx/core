@@ -19,9 +19,9 @@ dependencies {
 	implementation("io.github.cdimascio:dotenv-java:2.3.0")
 	implementation("io.javalin:javalin:6.6.0") }
 
-application { mainClass.set("dev.blac.jpos.Jpos") }
+application { mainClass.set("dev.blac.jposx.Jposx") }
 
-tasks.jar { manifest { attributes["Main-Class"] = "dev.blac.jpos.Jpos" } }
+tasks.jar { manifest { attributes["Main-Class"] = "dev.blac.jposx.Jposx" } }
 tasks.processResources {
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
 }

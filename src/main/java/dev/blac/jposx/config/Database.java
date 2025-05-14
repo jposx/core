@@ -50,7 +50,6 @@ public class Database {
 			logger.info("Database initialised");
 		} catch (Exception e) {
 			logger.error("Database initilisation failed: " + e);
-			// TODO: handle exception
 		}
 	}
 }

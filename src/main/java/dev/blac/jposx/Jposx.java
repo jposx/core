@@ -5,6 +5,7 @@ import io.github.cdimascio.dotenv.Dotenv;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import dev.blac.jposx.middleware.RequestLogger;
 import dev.blac.jposx.controller.OrderController;
 
 public class Jposx {
@@ -27,6 +28,7 @@ public class Jposx {
 		Javalin app = Javalin.create(config -> {
 			config.showJavalinBanner = false;
 		}).start(port);
+		new RequestLogger(app);
 		new OrderController(app);
 	}
 

@@ -9,12 +9,9 @@ public class OrderController {
 
 	public OrderController(Javalin app) {
 		app.post("/order", ctx -> {
-			logger.info("Order recieved");
 		});
 
 		app.get("/order/{id}", ctx -> {
-
-			logger.info("Order get with id " + ctx.pathParam("id"));
 		});
 
 		logger.info("OrderController endpoints registered");

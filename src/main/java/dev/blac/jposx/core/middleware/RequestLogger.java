@@ -1,4 +1,4 @@
-package dev.blac.jposx.middleware;
+package dev.blac.jposx.core.middleware;
 
 import io.javalin.Javalin;
 import org.slf4j.Logger;

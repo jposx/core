@@ -6,4 +6,4 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
-rootProject.name = "jpos"
+rootProject.name = "jposx-core"

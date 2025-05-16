@@ -1,12 +1,12 @@
-package dev.blac.jposx;
+package dev.blac.jposx.core;
 
 import io.javalin.Javalin;
 import io.github.cdimascio.dotenv.Dotenv;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import dev.blac.jposx.middleware.RequestLogger;
-import dev.blac.jposx.controller.OrderController;
+import dev.blac.jposx.core.middleware.RequestLogger;
+import dev.blac.jposx.core.controller.OrderController;
 
 public class Jposx {
 	private static Jposx jposx;

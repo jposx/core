@@ -1,4 +1,4 @@
-package dev.blac.jposx.config;
+package dev.blac.jposx.core.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

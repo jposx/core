@@ -1,4 +1,4 @@
-package dev.blac.jposx.controller;
+package dev.blac.jposx.core.controller;
 
 import io.javalin.Javalin;
 import org.slf4j.Logger;

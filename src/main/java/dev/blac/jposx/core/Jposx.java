@@ -8,6 +8,8 @@ import org.slf4j.LoggerFactory;
 import dev.blac.jposx.core.middleware.RequestLogger;
 import dev.blac.jposx.core.controller.OrderController;
 
+import dev.blac.jposx.shared.model.Order;
+
 public class Jposx {
 	private static Jposx jposx;
 	static Dotenv dotenv = Dotenv.load();
@@ -15,6 +17,7 @@ public class Jposx {
 	static Logger logger = LoggerFactory.getLogger(Jposx.class);
 
 	public Jposx() {
+		logger.info(Order.test());
 		logger.info("Starting JposX ...");
 		logger.info(
 				"\n       _                __   __\n" +
